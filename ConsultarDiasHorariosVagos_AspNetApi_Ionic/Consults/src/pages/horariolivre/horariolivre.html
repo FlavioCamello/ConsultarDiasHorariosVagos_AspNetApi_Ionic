@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Horarios Vagos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+      
+    <ion-item *ngFor="let h of horarios">      
+      <h1>{{h.hora}}</h1>
+      
+    </ion-item>
+     
+  </ion-list>
+</ion-content>
